@@ -14,3 +14,8 @@ pip install pandas
 
 ## Run pip freeze and redirect the results (>) into requirements.txt
 python3 -m pip freeze > requirements.txt
+
+## Push to GitHub
+git add .
+git commit -m "initial commit"
+git push -u origin main
