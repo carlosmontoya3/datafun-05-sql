@@ -1,6 +1,6 @@
 -- SQL script to delete records from books table
 DELETE FROM books
-WHERE title = 'TheBrave New World';
+WHERE title = 'Brave New World';
 
 -- SQL script to delete records from authors table
 DELETE FROM authors
