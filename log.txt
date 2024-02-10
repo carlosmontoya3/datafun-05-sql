@@ -71,3 +71,37 @@
 2024-02-09 23:55:47,692 - INFO - Executed join Query
 2024-02-09 23:55:47,692 - INFO - All SQL operations completed successfully
 2024-02-09 23:55:47,692 - DEBUG - Ending major_function
+2024-02-09 23:57:38,387 - INFO - Program started
+2024-02-09 23:57:38,390 - INFO - Database created successfully.
+2024-02-09 23:57:38,393 - INFO - Tables created successfully.
+2024-02-09 23:57:38,404 - INFO - Data inserted successfully.
+2024-02-09 23:57:38,404 - INFO - Program ended
+2024-02-09 23:57:43,457 - INFO - Program started
+2024-02-09 23:57:43,458 - INFO - Program ended
+2024-02-09 23:57:43,458 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,458 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,459 - DEBUG - ending major function
+2024-02-09 23:57:43,459 - INFO - Inserted Records
+2024-02-09 23:57:43,459 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,460 - DEBUG - ending major function
+2024-02-09 23:57:43,460 - INFO - Updated Records
+2024-02-09 23:57:43,460 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,460 - DEBUG - ending major function
+2024-02-09 23:57:43,461 - INFO - Deleted Records
+2024-02-09 23:57:43,461 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,461 - DEBUG - ending major function
+2024-02-09 23:57:43,461 - INFO - Executed Aggregation Query
+2024-02-09 23:57:43,461 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,462 - DEBUG - ending major function
+2024-02-09 23:57:43,462 - INFO - Executed Filter Query
+2024-02-09 23:57:43,462 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,462 - DEBUG - ending major function
+2024-02-09 23:57:43,462 - INFO - Executed Sorting Query
+2024-02-09 23:57:43,462 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,462 - DEBUG - ending major function
+2024-02-09 23:57:43,462 - INFO - Executed Group by Query
+2024-02-09 23:57:43,462 - DEBUG - Starting Major Function
+2024-02-09 23:57:43,463 - DEBUG - ending major function
+2024-02-09 23:57:43,463 - INFO - Executed join Query
+2024-02-09 23:57:43,463 - INFO - All SQL operations completed successfully
+2024-02-09 23:57:43,463 - DEBUG - Ending major_function
