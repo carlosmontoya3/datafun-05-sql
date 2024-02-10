@@ -1,6 +1,12 @@
 import sqlite3
 import pandas as pd
 import pathlib
+import logging
+
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.info("Program started") # Start of program
 
 # Define the database file in the current root project directory
 db_file = pathlib.Path("project.db")
@@ -14,6 +20,7 @@ def create_database():
         conn = sqlite3.connect(db_file)
         conn.close()
         print("Database created successfully.")
+        logging.info("Database created successfully.") # Logs databse creation
     except sqlite3.Error as e:
         print("Error creating the database:", e)
 
@@ -26,6 +33,7 @@ def create_tables():
                 sql_script = file.read()
             conn.executescript(sql_script)
             print("Tables created successfully.")
+            logging.info("Tables created successfully.") # Logs tables creation
     except sqlite3.Error as e:
         print("Error creating tables:", e)
 
@@ -43,6 +51,7 @@ def insert_data_from_csv():
             authors_df.to_sql("authors", conn, if_exists="replace", index=False)
             books_df.to_sql("books", conn, if_exists="replace", index=False)
             print("Data inserted successfully.")
+            logging.info("Data inserted successfully.") # Logs data insertion
     except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
         print("Error inserting data:", e)
 
@@ -51,5 +60,6 @@ def main():
     create_tables()
     insert_data_from_csv()
 
+    logging.info("Program ended")  # End of program
 if __name__ == "__main__":
     main()
